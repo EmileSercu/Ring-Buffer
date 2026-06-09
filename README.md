@@ -5,3 +5,7 @@ This is an experiment on embedded systems and how they handle memory in comparis
 6/4/26
 Project is set up with a main file, header file and ring buffer file.
 Makefile is included to make setup easier.
+Wrote header file.
+
+6/9/26
+Started writing the main file.
