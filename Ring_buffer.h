@@ -11,9 +11,9 @@
 
 typedef struct {
     uint8_t data[BUFFER_SIZE];
-    uint8_t head;
-    uint8_t tail;
-    uint8_t lenght;
+    uint8_t write;
+    uint8_t read;
+    uint8_t counter;
 } RingBuffer;
 
 //initialize ringbuffer with pointer to store address

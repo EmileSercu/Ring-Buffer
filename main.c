@@ -36,7 +36,7 @@ void store_stream(RingBuffer *rb) {
 
     char c;
     while (rb_read(rb, &c)) {
-        //if the value of c is the same as the one in the reading, delete it and increase the inded
+        //if the value of c is the same as the one in the reading, delete it and increase the index
         if (c == '/n') {
             message[i]= '/0'; //delete string
             i = 0; //reset index
